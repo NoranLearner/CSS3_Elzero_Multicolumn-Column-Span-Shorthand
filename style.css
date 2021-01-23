@@ -1,0 +1,32 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div{
+    border: 3px solid #ccc;
+    padding: 10px;
+
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+
+    column-gap: 100px;
+    -moz-column-gap: 100px;
+    -webkit-column-gap: 100px;
+
+    column-rule: 3px dashed #00f;
+    -moz-column-rule: 3px dashed #00f ;
+    -webkit-column-rule: 3px dashed #00f ;
+
+    /* column-width: 500px;
+    -moz-column-width: 500px ;
+    -webkit-column-width: 500px ; */
+}
+
+div h2{
+    column-span: all;
+    -webkit-column-span: all;
+}
